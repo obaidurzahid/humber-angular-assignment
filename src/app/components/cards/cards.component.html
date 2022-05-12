@@ -1,0 +1,10 @@
+<div class="section">
+    <div class="card-container">
+        <div *ngFor="let product of productData" class="card">
+            <div class="card-title">{{product.item_name}}</div>
+            <div class="card-image"><img src="{{product.image_url}}"> </div>
+            <div class="card-descriptio">{{product.item_description}}</div>
+            
+        </div>        
+    </div>   
+</div>
